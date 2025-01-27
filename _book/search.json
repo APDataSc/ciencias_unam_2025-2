@@ -1,0 +1,83 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notas de clase del Curso de Demografía",
+    "section": "",
+    "text": "Introducción",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "index.html#objetivo-general",
+    "href": "index.html#objetivo-general",
+    "title": "Notas de clase del Curso de Demografía",
+    "section": "💡 Objetivo general",
+    "text": "💡 Objetivo general\nProporcionar al alumnado una comprensión integral de las teorías, métodos y técnicas de análisis demográfico, y su aplicación en las ciencias actuariales, permitiéndoles evaluar las dinámicas poblacionales y las tendencias de envejecimiento. Este curso tiene como objetivo dotar al alumnado de las habilidades necesarias para incorporar conocimientos demográficos en la evaluación de riesgos, seguros de vida, planificación de pensiones y pronósticos de seguridad social.",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "index.html#objetivos-específicos",
+    "href": "index.html#objetivos-específicos",
+    "title": "Notas de clase del Curso de Demografía",
+    "section": "📚 Objetivos específicos:",
+    "text": "📚 Objetivos específicos:\n\nAnalizar los conceptos fundamentales y teorías clave de la demografía, para comprender su relevancia en la evaluación de riesgos y la gestión de seguros en las ciencias actuariales.\nAplicar métodos cuantitativos de análisis demográfico para identificar y evaluar las tendencias de envejecimiento y su impacto en la planificación de pensiones y pronósticos de seguridad social.\nDesarrollar habilidades en el uso de técnicas demográficas avanzadas para la toma de decisiones en seguros de vida y otros productos actuariales.\nEvaluar las dinámicas poblacionales y sus implicaciones en la seguridad social mediante el análisis de datos demográficos.\nIntegrar el conocimiento demográfico en la elaboración de estrategias de planificación actuarial, abordando desafíos como el envejecimiento de la población y los cambios en la estructura etaria, para mejorar la sostenibilidad y precisión en la evaluación de riesgos actuariales.",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "index.html#datos-importantes",
+    "href": "index.html#datos-importantes",
+    "title": "Notas de clase del Curso de Demografía",
+    "section": "📑 Datos importantes",
+    "text": "📑 Datos importantes\n️📆 Clases del 27 de enero al 23 de mayo de 2025\n\n\nGrupo: 9209\nAula: P 208 🏛\nDías inhábiles: 3 de febrero, 17 de marzo, 1 de mayo y 15 de mayo.\nAsueto académico: 14 a 18 de abril.\nExámenes: 26 a 30 de mayo.",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "index.html#mecanismo-de-evaluación",
+    "href": "index.html#mecanismo-de-evaluación",
+    "title": "Notas de clase del Curso de Demografía",
+    "section": "⚖️ Mecanismo de evaluación:",
+    "text": "⚖️ Mecanismo de evaluación:\n\n\n\n\n\n\nComposición de la nota final\n\n\n\n\nEvaluación teórica 1: 25%\nEvaluación teórica 2: 25%\nTarea examen 1: 25%\nTarea examen 2: 25%",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Apéndices",
+      "References"
+    ]
+  }
+]

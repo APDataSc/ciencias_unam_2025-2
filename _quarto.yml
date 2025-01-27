@@ -1,0 +1,63 @@
+project:
+  type: book
+#  output-dir: docs
+  
+lang: es
+
+book:
+  title: "Notas de clase del Curso de Demografía"
+  reader-mode: true
+  author: 
+    - name: Dr. Víctor Manuel García Guerrero
+      orcid: 0000-0003-1367-9262
+      url: https://cedua.colmex.mx/personal-academico/garcia-guerrero-victor-manuel/semblanza
+    - name: Mtro. Andrés Peña Montalvo
+      #url: https://www.cepal.org/es/acerca-de-poblacion-y-desarrollo
+  date: "2025/01/27"
+  page-navigation: true
+  page-footer:
+    left: |
+      Facultad de Ciencias de la UNAM, Licenciatura en Actuaría, 6to semestre, 2025-2.
+    right: |
+      Este manual fue hecho en <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover.png
+  favicon: cover.png
+  #site-url: https://www.cepal.org/es/acerca-de-poblacion-y-desarrollo
+  repo-url: https://github.com/demo-notes/ciencias_unam_2025-2
+  repo-branch: main
+  repo-actions: [edit, issue]
+  
+  
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+
+#    - 1_conceptos.qmd
+#    - 2_proba_tasas.qmd
+#    - 3_dec_simple.qmd
+#    - 4_dec_mult.qmd
+#    - 5_mort_law.qmd
+#    - 6_fecundidad.qmd
+#    - 7_migracion.qmd
+
+  appendices:
+    # - a1_adicional.qmd
+    - references.qmd
+
+
+# crossref:
+#   appendix-title: "App."
+#   appendix-delim: ":"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    #css: styles.css
+  # pdf:
+  #   documentclass: scrreprt
+
+editor: visual

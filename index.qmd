@@ -1,0 +1,42 @@
+# Introducción {.unnumbered}
+
+## 💡 Objetivo general {.unnumbered}
+
+Proporcionar al alumnado una comprensión integral de las teorías, métodos y técnicas de análisis demográfico, y su aplicación en las ciencias actuariales, permitiéndoles evaluar las dinámicas poblacionales y las tendencias de envejecimiento. Este curso tiene como objetivo dotar al alumnado de las habilidades necesarias para incorporar conocimientos demográficos en la evaluación de riesgos, seguros de vida, planificación de pensiones y pronósticos de seguridad social.
+
+## 📚 Objetivos específicos:
+
+1.  Analizar los conceptos fundamentales y teorías clave de la demografía, para comprender su relevancia en la evaluación de riesgos y la gestión de seguros en las ciencias actuariales.
+
+2.  Aplicar métodos cuantitativos de análisis demográfico para identificar y evaluar las tendencias de envejecimiento y su impacto en la planificación de pensiones y pronósticos de seguridad social.
+
+3.  Desarrollar habilidades en el uso de técnicas demográficas avanzadas para la toma de decisiones en seguros de vida y otros productos actuariales.
+
+4.  Evaluar las dinámicas poblacionales y sus implicaciones en la seguridad social mediante el análisis de datos demográficos.
+
+5.  Integrar el conocimiento demográfico en la elaboración de estrategias de planificación actuarial, abordando desafíos como el envejecimiento de la población y los cambios en la estructura etaria, para mejorar la sostenibilidad y precisión en la evaluación de riesgos actuariales.
+
+## 📑 Datos importantes {.unnumbered}
+
+️📆 Clases del 27 de enero al 23 de mayo de 2025
+
+> -   **Grupo:** 9209
+>
+> -   **Aula:** P 208 🏛
+>
+> -   **Días inhábiles:** 3 de febrero, 17 de marzo, 1 de mayo y 15 de mayo.
+>
+> -   **Asueto académico:** 14 a 18 de abril.
+>
+> -   **Exámenes:** 26 a 30 de mayo.
+
+## ⚖️ Mecanismo de evaluación: {.unnumbered}
+
+::: callout-note
+## Composición de la nota final
+
+-   Evaluación teórica 1: 25%
+-   Evaluación teórica 2: 25%
+-   Tarea examen 1: 25%
+-   Tarea examen 2: 25%
+:::
