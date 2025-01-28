@@ -31,20 +31,18 @@ book:
 
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-
-#    - 1_conceptos.qmd
-#    - 2_proba_tasas.qmd
-#    - 3_dec_simple.qmd
-#    - 4_dec_mult.qmd
-#    - 5_mort_law.qmd
-#    - 6_fecundidad.qmd
-#    - 7_migracion.qmd
+    - 1_conceptos.qmd
+    - 2_proba_tasas.qmd
+    - 3_dec_simple.qmd
+    - 4_dec_mult.qmd
+    - 5_mort_law.qmd
+    - 6_fecundidad.qmd
+    - 7_migracion.qmd
+    - references.qmd
 
   appendices:
-    # - a1_adicional.qmd
-    - references.qmd
+    - a1_adicional.qmd
+    
 
 
 # crossref:
