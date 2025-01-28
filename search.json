@@ -50,34 +50,43 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "1_conceptos.html",
+    "href": "1_conceptos.html",
+    "title": "1  Conceptos básicos y medidas",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 Presentaciones",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "1_conceptos.html#presentaciones",
+    "href": "1_conceptos.html#presentaciones",
+    "title": "1  Conceptos básicos y medidas",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "1.1.1 Conceptos básicos\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
+    ]
+  },
+  {
+    "objectID": "1_conceptos.html#laboratorios",
+    "href": "1_conceptos.html#laboratorios",
+    "title": "1  Conceptos básicos y medidas",
+    "section": "1.2 Laboratorios",
+    "text": "1.2 Laboratorios\n\n1.2.1 Introducción a R\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.\n\nAsegúrese de tener instalados los siguientes paquetes de R antes de empezar:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"readxl\")\ninstall.packages(\"mipfp\")\ninstall.packages(\"LexisPlotR\")\ninstall.packages(\"MortalityLaws\")\ninstall.packages(\"remotes\")\ninstall.packages(\"quadprog\")\ninstall.packages(\"kableExtra\")\ninstall.packages(\"MortCast\")\ninstall.packages(\"zoo\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"webshot\")\ninstall.packages(\"remotes\")\nwebshot::install_phantomjs(force=TRUE)\n\n#Instalar Demotools \ninstall.packages(\"rstan\", repos = c(\"https://mc-stan.org/r-packages/\", \n                                    getOption(\"repos\")))\nremotes::install_github(\"timriffe/DemoTools\")\n\nDemoTools es un paquete de R que tiene funciones útiles en el análisis demográfico (Riffe et al. 2019).\n\n\n1.2.2 Datos\n\n\n1.2.3 Script\n\n\n\n\nRiffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu, y P Gerland. 2019. «DemoTools: An R package of tools for aggregate demographic analysis».",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
     ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "References",
+    "title": "Referencias",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Riffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu,\nand P Gerland. 2019. “DemoTools: An\nR Package of Tools for Aggregate Demographic\nAnalysis.”",
     "crumbs": [
-      "Apéndices",
-      "References"
+      "Referencias"
     ]
   }
 ]
