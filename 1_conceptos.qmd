@@ -6,7 +6,7 @@ bibliography: references.bib
 
 ## Presentaciones
 
-### Conceptos básicos
+### Conceptos básicos 👩‍🏫
 
 ```{=html}
 <object data="slides/1_Conceptos_CienciasUNAM_2025_2.pdf" type="application/pdf" width="100%" height="60%" style="min-height:100vh;">
@@ -14,7 +14,7 @@ bibliography: references.bib
     No hay problema... Puedes hacer <a href="slides/1_Conceptos_CienciasUNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
-## Laboratorios
+## Laboratorios 👩‍🔬
 
 ### Introducción a R
 
@@ -24,7 +24,6 @@ bibliography: references.bib
     No hay problema... Puedes hacer <a href="slides/1.1_ManipulaciónR_CienciasUNAM_2025-2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
-
 Asegúrese de tener instalados los siguientes paquetes de `R` antes de empezar:
 
 ```{r, eval=FALSE}
@@ -51,6 +50,10 @@ remotes::install_github("timriffe/DemoTools")
 
 `DemoTools` es un paquete de `R` que tiene funciones útiles en el análisis demográfico [@demotools].
 
-### Datos
+### Datos 🗂️
 
-### Script
+-   [Población a inicio de año, 1950-2070 (\*.csv)](https://conapo.segob.gob.mx/work/models/CONAPO/Datos_Abiertos/pry23/00_Pob_Inicio_1950_2070.csv)
+
+### Script 👩‍💻
+
+-   [Script de la Semana 1 (\*.R)](script/Cap1/Semana1_Demogr_CienciasUNAM.R): para descargar este archivo de `clic derecho` y `Guardar vínculo como…` (`Save link as…`, `Descargar archivo enlazado como…`).

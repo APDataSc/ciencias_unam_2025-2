@@ -23,7 +23,7 @@ book:
   cover-image: cover.png
   favicon: cover.png
   #site-url: https://www.cepal.org/es/acerca-de-poblacion-y-desarrollo
-  repo-url: https://github.com/demo-notes/ciencias_unam_2025-2
+  repo-url: https://github.com/apdatasc/ciencias_unam_2025-2
   repo-branch: main
   repo-actions: [edit, issue]
   
