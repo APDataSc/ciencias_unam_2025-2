@@ -34,7 +34,7 @@
     "href": "index.html#datos-importantes",
     "title": "Notas de clase del Curso de Demografía",
     "section": "📑 Datos importantes",
-    "text": "📑 Datos importantes\n️📆 Clases del 27 de enero al 23 de mayo de 2025\n\n\nGrupo: 9209\nAula: P 208 🏛\nDías inhábiles: 3 de febrero, 17 de marzo, 1 de mayo y 15 de mayo.\nAsueto académico: 14 a 18 de abril.\nExámenes: 26 a 30 de mayo.\n\n\nEstudiantes: llene formulario",
+    "text": "📑 Datos importantes\n️📆 Clases del 27 de enero al 23 de mayo de 2025\n\n\nGrupo: 9209\nAula: P 208 🏛\nDías inhábiles: 3 de febrero, 17 de marzo, 1 de mayo y 15 de mayo.\nAsueto académico: 14 a 18 de abril.\nExámenes: 26 a 30 de mayo.\n\n\nEstudiantes: llene formulario de datos básicos",
     "crumbs": [
       "Introducción"
     ]
@@ -64,7 +64,7 @@
     "href": "1_conceptos.html#presentaciones",
     "title": "1  Conceptos básicos y medidas",
     "section": "",
-    "text": "1.1.1 Conceptos básicos\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.",
+    "text": "1.1.1 Conceptos básicos 👩‍🏫\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
     ]
@@ -73,8 +73,8 @@
     "objectID": "1_conceptos.html#laboratorios",
     "href": "1_conceptos.html#laboratorios",
     "title": "1  Conceptos básicos y medidas",
-    "section": "1.2 Laboratorios",
-    "text": "1.2 Laboratorios\n\n1.2.1 Introducción a R\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.\n\nAsegúrese de tener instalados los siguientes paquetes de R antes de empezar:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"readxl\")\ninstall.packages(\"mipfp\")\ninstall.packages(\"LexisPlotR\")\ninstall.packages(\"MortalityLaws\")\ninstall.packages(\"remotes\")\ninstall.packages(\"quadprog\")\ninstall.packages(\"kableExtra\")\ninstall.packages(\"MortCast\")\ninstall.packages(\"zoo\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"webshot\")\ninstall.packages(\"remotes\")\nwebshot::install_phantomjs(force=TRUE)\n\n#Instalar Demotools \ninstall.packages(\"rstan\", repos = c(\"https://mc-stan.org/r-packages/\", \n                                    getOption(\"repos\")))\nremotes::install_github(\"timriffe/DemoTools\")\n\nDemoTools es un paquete de R que tiene funciones útiles en el análisis demográfico (Riffe et al. 2019).\n\n\n1.2.2 Datos\n\n\n1.2.3 Script\n\n\n\n\nRiffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu, y P Gerland. 2019. «DemoTools: An R package of tools for aggregate demographic analysis».",
+    "section": "1.2 Laboratorios 👩‍🔬",
+    "text": "1.2 Laboratorios 👩‍🔬\n\n1.2.1 Introducción a R\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.\n\nAsegúrese de tener instalados los siguientes paquetes de R antes de empezar:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"readxl\")\ninstall.packages(\"mipfp\")\ninstall.packages(\"LexisPlotR\")\ninstall.packages(\"MortalityLaws\")\ninstall.packages(\"remotes\")\ninstall.packages(\"quadprog\")\ninstall.packages(\"kableExtra\")\ninstall.packages(\"MortCast\")\ninstall.packages(\"zoo\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"webshot\")\ninstall.packages(\"remotes\")\nwebshot::install_phantomjs(force=TRUE)\n\n#Instalar Demotools \ninstall.packages(\"rstan\", repos = c(\"https://mc-stan.org/r-packages/\", \n                                    getOption(\"repos\")))\nremotes::install_github(\"timriffe/DemoTools\")\n\nDemoTools es un paquete de R que tiene funciones útiles en el análisis demográfico (Riffe et al. 2019).\n\n\n1.2.2 Datos 🗂️\n\nPoblación a inicio de año, 1950-2070 (*.csv)\n\n\n\n1.2.3 Script 👩‍💻\n\nScript de la Semana 1 (*.R): para descargar este archivo de clic derecho y Guardar vínculo como… (Save link as…, Descargar archivo enlazado como…).\n\n\n\n\n\nRiffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu, y P Gerland. 2019. «DemoTools: An R package of tools for aggregate demographic analysis».",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
     ]
