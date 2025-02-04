@@ -16,14 +16,24 @@ bibliography: references.bib
 ```
 ### Demografía matemática y aplicada 📊
 
+#### Seminario virtual 💻
+
+-   "Tendencias demográficas: perspectivas transatlánticas México-España"
+
+    -   *Centro de Estudios Demográficos, Urbanos y Ambientales (CEDUA), El Colegio de México*
+
+    -   *Centre D´Estudis Demogràfics (CED), Universidad Autónoma de Barcelona, España*
+
 📆 4 de febrero de 2025
 
 > -   9:00 a 11:00 de CDMX, México (UTC-6)
 > -   <https://www.youtube.com/live/ORPmHKcIBa0>
 
-{{< video https://www.youtube.com/live/ORPmHKcIBa0 title="Seminario virtual México-España" start="116" aspect-ratio="21x9" >}}
+#### Cuestionario 💬
 
+📆 Conteste las preguntas hasta el viernes 7 de febrero de 2025
 
+`Pendiente...`
 
 ## Laboratorios 👩‍🔬
 
