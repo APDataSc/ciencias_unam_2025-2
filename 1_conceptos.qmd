@@ -14,6 +14,17 @@ bibliography: references.bib
     No hay problema... Puedes hacer <a href="slides/1_Conceptos_CienciasUNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
+### Demografía matemática y aplicada 📊
+
+📆 4 de febrero de 2025
+
+> -   9:00 a 11:00 de CDMX, México (UTC-6)
+> -   <https://www.youtube.com/live/ORPmHKcIBa0>
+
+{{< video https://www.youtube.com/live/ORPmHKcIBa0 title="Seminario virtual México-España" start="116" aspect-ratio="21x9" >}}
+
+
+
 ## Laboratorios 👩‍🔬
 
 ### Introducción a R
