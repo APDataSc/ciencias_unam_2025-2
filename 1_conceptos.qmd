@@ -27,13 +27,16 @@ bibliography: references.bib
 📆 4 de febrero de 2025
 
 > -   9:00 a 11:00 de CDMX, México (UTC-6)
-> -   <https://www.youtube.com/live/ORPmHKcIBa0>
+
+{{< video https://www.youtube.com/watch?v=ORPmHKcIBa0 title="Video del seminario virtual CED-CEDUA" start="116" aspect-ratio="21x9" >}}
+
 
 #### Cuestionario 💬
 
 📆 Conteste las preguntas hasta el viernes 7 de febrero de 2025
 
-`Pendiente...`
+[Link del cuestionario](https://docs.google.com/forms/d/e/1FAIpQLSea9wBAjDAMZmJIiBPeI04h46UC8q9sOq2AMG_-RJ5dlqN5Iw/viewform?usp=sharing)
+
 
 ## Laboratorios 👩‍🔬
 
