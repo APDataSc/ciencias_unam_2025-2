@@ -14,7 +14,7 @@ bibliography: references.bib
     No hay problema... Puedes hacer <a href="slides/1_Conceptos_CienciasUNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
-### Demografía matemática y aplicada 📊
+### Evaluación 1 - Demografía matemática y aplicada 📊
 
 #### Seminario virtual 💻
 
@@ -30,13 +30,19 @@ bibliography: references.bib
 
 {{< video https://www.youtube.com/watch?v=ORPmHKcIBa0 title="Video del seminario virtual CED-CEDUA" start="116" aspect-ratio="21x9" >}}
 
-
 #### Cuestionario 💬
 
 📆 Conteste las preguntas hasta el viernes 7 de febrero de 2025
 
 [Link del cuestionario](https://docs.google.com/forms/d/e/1FAIpQLSea9wBAjDAMZmJIiBPeI04h46UC8q9sOq2AMG_-RJ5dlqN5Iw/viewform?usp=sharing)
 
+### Evaluación 2 - Conceptos básicos, fuentes y medidas 🗺️
+
+#### Cuestionario 💬
+
+📆 Conteste las preguntas hasta las 8:00 del martes 18 de febrero de 2025. Si tienen alguna duda nos la pueden hacer llegar por correo electrónico o en la clase del lunes 17 de febrero. No se admitirán envíos extemporáneos.
+
+[Link del cuestionario](https://forms.gle/ZfoesE2PtCPES22b9)
 
 ## Laboratorios 👩‍🔬
 

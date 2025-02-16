@@ -95,3 +95,41 @@ ggplot(data=pop_nac, aes(x=ano, y=pop, group=sex,
              size = 0.54, alpha = 0.70)
 
 #*****************************************FIN******************************************#
+
+pop_nac <- pop[entidad=="República Mexicana", 
+               .(pop=sum(poblacion)), 
+               .(año, edad)]
+
+tab_rd <- pop_nac[ , age:=ifelse(edad %in% 15:59, "ft", "dep") ] %>% 
+          .[ , .(pop = sum(pop)), .(año, age) ] %>%
+          dcast(año ~ age) %>%
+          .[ , RDT := dep / ft * 100 ]
+
+
+ggplot(data=tab_rd, aes(x=año, y=RDT)) +
+  geom_line() + geom_point() +
+  scale_color_brewer(palette="Paired") +
+  theme_minimal() +
+  geom_vline(xintercept = 2025, linetype = 'dashed', 
+             color = 'red', 
+             size = 0.54, alpha = 0.70)
+
+# 
+pop_nac <- pop[entidad!="República Mexicana", 
+               .(pop=sum(poblacion)), 
+               .(entidad, año, edad)]
+
+tab_rd <- pop_nac[ , age:=ifelse(edad %in% 15:59, "ft", "dep") ] %>% 
+  .[ , .(pop = sum(pop)), .(entidad, año, age) ] %>%
+  dcast(entidad + año ~ age) %>%
+  .[ , RDT := dep / ft * 100 ]
+
+
+ggplot(data=tab_rd, aes(x=año, y=RDT)) +
+  geom_line() + geom_point() +
+  scale_color_brewer(palette="Paired") +
+  theme_minimal() +
+  geom_vline(xintercept = 2025, linetype = 'dashed', 
+             color = 'red', 
+             size = 0.54, alpha = 0.70) +
+  facet_wrap(~entidad)
