@@ -96,6 +96,7 @@ ggplot(data=pop_nac, aes(x=ano, y=pop, group=sex,
 
 #*****************************************FIN******************************************#
 
+# Nacional
 pop_nac <- pop[entidad=="República Mexicana", 
                .(pop=sum(poblacion)), 
                .(año, edad)]
@@ -114,7 +115,7 @@ ggplot(data=tab_rd, aes(x=año, y=RDT)) +
              color = 'red', 
              size = 0.54, alpha = 0.70)
 
-# 
+# Por entidad federativa
 pop_nac <- pop[entidad!="República Mexicana", 
                .(pop=sum(poblacion)), 
                .(entidad, año, edad)]
