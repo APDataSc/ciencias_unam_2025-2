@@ -80,16 +80,6 @@
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "Referencias",
-    "section": "",
-    "text": "Riffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu,\nand P Gerland. 2019. “DemoTools: An\nR Package of Tools for Aggregate Demographic\nAnalysis.”",
-    "crumbs": [
-      "Referencias"
-    ]
-  },
-  {
     "objectID": "2_proba_tasas.html",
     "href": "2_proba_tasas.html",
     "title": "2  Probabilidades de ocurrencia y tasas específicas por edad",
@@ -104,7 +94,37 @@
     "href": "2_proba_tasas.html#presentaciones",
     "title": "2  Probabilidades de ocurrencia y tasas específicas por edad",
     "section": "",
-    "text": "2.1.1 Probabilidades de ocurrencia 👩‍🏫\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.\n\n\n\n2.1.2 Link grupo whatsapp 👩‍🏫\nhttps://chat.whatsapp.com/BPbqZ0mboSA4n3LfEZFac3",
+    "text": "2.1.1 Probabilidades de ocurrencia 👩‍🏫\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>*Probabilidades de ocurrencia y tasas específicas por edad*</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Riffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu,\nand P Gerland. 2019. “DemoTools: An\nR Package of Tools for Aggregate Demographic\nAnalysis.”",
+    "crumbs": [
+      "Referencias"
+    ]
+  },
+  {
+    "objectID": "index.html#link-grupo-whatsapp",
+    "href": "index.html#link-grupo-whatsapp",
+    "title": "Notas de clase del Curso de Demografía",
+    "section": "📲 Link grupo whatsapp",
+    "text": "📲 Link grupo whatsapp\nDemografía 9209",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "2_proba_tasas.html#laboratorios",
+    "href": "2_proba_tasas.html#laboratorios",
+    "title": "2  Probabilidades de ocurrencia y tasas específicas por edad",
+    "section": "2.2 Laboratorios 👩‍🔬",
+    "text": "2.2 Laboratorios 👩‍🔬\n\n2.2.1 Diagrama de Lexis\n\nEjercicio de Diagrama de Lexis (*.xlsx)\n\n\n\n2.2.2 Datos 🗂️\n\n\n2.2.3 Script 👩‍💻",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>*Probabilidades de ocurrencia y tasas específicas por edad*</span>"
     ]

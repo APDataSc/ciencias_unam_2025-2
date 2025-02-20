@@ -11,6 +11,13 @@
 </object>
 ```
 
-### Link grupo whatsapp 👩‍🏫
+## Laboratorios 👩‍🔬
 
-<https://chat.whatsapp.com/BPbqZ0mboSA4n3LfEZFac3>
+### Diagrama de Lexis
+
+-   [Ejercicio de Diagrama de Lexis (\*.xlsx)](excel/Cap2/Diagrama de Lexis_Ejemplo.xlsx)
+
+### Datos 🗂️
+
+
+### Script 👩‍💻
