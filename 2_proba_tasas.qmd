@@ -10,14 +10,31 @@
     No hay problema... Puedes hacer <a href="slides/2_Probabilidades_Tasas_UNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
+### Evaluación 3 ️
+
+#### Cuestionario 💬
+
+📆 Conteste las preguntas hasta las 8:00 del martes 25 de febrero de 2025. Si tienen alguna duda nos la pueden hacer llegar por correo electrónico o en la clase del viernes 21 de febrero. No se admitirán envíos extemporáneos.
+
+[Link del cuestionario](https://forms.gle/XZSUdknq5TstNqLTA)
+
+#### Notas de clase 
+
+-   [Censos de Población y Vivienda](notes/Cap1/1_Censos de Población y Vivienda.pdf)
+
+-   [Sistema de Estadísticas Vitales](notes/Cap1/2_Sistema de Estadísticas Vitales.pdf)
+
+-   [Encuestas demográficas](notes/Cap1/3_Encuestas demográficas.pdf)
+
+[Insumo para pregunta 9](notes/Cap2/Evaluación3_U2_Peña_Andrés.docx)
+
 
 ## Laboratorios 👩‍🔬
 
 ### Diagrama de Lexis
 
--   [Ejercicio de Diagrama de Lexis (\*.xlsx)](excel/Cap2/Diagrama de Lexis_Ejemplo.xlsx)
+-   [Ejercicio de Diagrama de Lexis (\*.xlsx)](excel/Cap2/Diagrama%20de%20Lexis_Ejemplo.xlsx)
 
 ### Datos 🗂️
-
 
 ### Script 👩‍💻
