@@ -96,7 +96,16 @@ ggplot(data=pop_nac, aes(x=ano, y=pop, group=sex,
 
 #*****************************************FIN******************************************#
 
-# Nacional
+# Preámbulo ----
+library(data.table)
+library(dplyr)
+library(ggplot2)
+
+# Carga de tabla de población ----
+pop <- fread("https://conapo.segob.gob.mx/work/models/CONAPO/Datos_Abiertos/pry23/00_Pob_Mitad_1950_2070.csv")
+names(pop) <- tolower(names(pop)) # Poner en minúsculas nombres de variables
+
+# RDT Nacional ----
 pop_nac <- pop[entidad=="República Mexicana", 
                .(pop=sum(poblacion)), 
                .(año, edad)]
@@ -106,7 +115,6 @@ tab_rd <- pop_nac[ , age:=ifelse(edad %in% 15:59, "ft", "dep") ] %>%
           dcast(año ~ age) %>%
           .[ , RDT := dep / ft * 100 ]
 
-
 ggplot(data=tab_rd, aes(x=año, y=RDT)) +
   geom_line() + geom_point() +
   scale_color_brewer(palette="Paired") +
@@ -115,7 +123,8 @@ ggplot(data=tab_rd, aes(x=año, y=RDT)) +
              color = 'red', 
              size = 0.54, alpha = 0.70)
 
-# Por entidad federativa
+
+# RDT por entidad federativa ----
 pop_nac <- pop[entidad!="República Mexicana", 
                .(pop=sum(poblacion)), 
                .(entidad, año, edad)]
@@ -124,7 +133,6 @@ tab_rd <- pop_nac[ , age:=ifelse(edad %in% 15:59, "ft", "dep") ] %>%
   .[ , .(pop = sum(pop)), .(entidad, año, age) ] %>%
   dcast(entidad + año ~ age) %>%
   .[ , RDT := dep / ft * 100 ]
-
 
 ggplot(data=tab_rd, aes(x=año, y=RDT)) +
   geom_line() + geom_point() +

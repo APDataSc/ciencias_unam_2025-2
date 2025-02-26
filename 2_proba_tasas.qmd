@@ -10,7 +10,7 @@
     No hay problema... Puedes hacer <a href="slides/2_Probabilidades_Tasas_UNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
-### Evaluación 3 ️
+### Evaluación 3 ️🧑‍🎓
 
 #### Cuestionario 💬
 
@@ -18,16 +18,15 @@
 
 [Link del cuestionario](https://forms.gle/XZSUdknq5TstNqLTA)
 
-#### Notas de clase 
+#### Notas de clase 📝
 
--   [Censos de Población y Vivienda](notes/Cap1/1_Censos de Población y Vivienda.pdf)
+-   [Censos de Población y Vivienda](notes/Cap1/1_Censos%20de%20Población%20y%20Vivienda.pdf)
 
--   [Sistema de Estadísticas Vitales](notes/Cap1/2_Sistema de Estadísticas Vitales.pdf)
+-   [Sistema de Estadísticas Vitales](notes/Cap1/2_Sistema%20de%20Estadísticas%20Vitales.pdf)
 
--   [Encuestas demográficas](notes/Cap1/3_Encuestas demográficas.pdf)
+-   [Encuestas demográficas](notes/Cap1/3_Encuestas%20demográficas.pdf)
 
 [Insumo para pregunta 9](notes/Cap2/Evaluación3_U2_Peña_Andrés.docx)
-
 
 ## Laboratorios 👩‍🔬
 
@@ -35,6 +34,16 @@
 
 -   [Ejercicio de Diagrama de Lexis (\*.xlsx)](excel/Cap2/Diagrama%20de%20Lexis_Ejemplo.xlsx)
 
+-   [Ejercicio de Tipos de Crecimiento Poblacional (\*.xlsx)](excel/Cap2/Crecimiento%20Poblacional_Ejemplo.xlsx)
+
 ### Datos 🗂️
+
+-   [Cuestionario ampliado del Censo 2020 (muestra) (\*.zip)](https://www.inegi.org.mx/contenidos/programas/ccpv/2020/microdatos/Censo2020_CA_eum_csv.zip)
+
+-   [Descripción de la base de datos (\*.xlsx)](https://www.inegi.org.mx/contenidos/programas/ccpv/2020/microdatos/diccionario_cuestionario_ampliado_cpv2020.xlsx)
+
+-   [Clasificaciones (\*.xlsx)](https://www.inegi.org.mx/contenidos/programas/ccpv/2020/microdatos/Censo2020_clasificaciones_CPV.xlsx)
+
+-   [Diseño de la muestra censal 2020 (\*.pdf)](https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825197629.pdf)
 
 ### Script 👩‍💻
