@@ -30,11 +30,17 @@
 
 ## Laboratorios 👩‍🔬
 
-### Diagrama de Lexis
+### Diagrama de Lexis 🧐
 
 -   [Ejercicio de Diagrama de Lexis (\*.xlsx)](excel/Cap2/Diagrama%20de%20Lexis_Ejemplo.xlsx)
 
+-   [Notas sobre el Diagrama de Lexis (\*.pdf)](notes/Cap2/Notas%20del%20Diagrama%20de%20Lexis_CEPAL_1985.pdf)
+
+### Crecimiento Poblacional 📈
+
 -   [Ejercicio de Tipos de Crecimiento Poblacional (\*.xlsx)](excel/Cap2/Crecimiento%20Poblacional_Ejemplo.xlsx)
+
+-   [Problemas adicionales de Crecimiento Poblacional (\*.pdf)](notes/Cap2/Demography%20through%20problems_Keyfitz1984-15-16.pdf)
 
 ### Datos 🗂️
 
@@ -47,3 +53,5 @@
 -   [Diseño de la muestra censal 2020 (\*.pdf)](https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825197629.pdf)
 
 ### Script 👩‍💻
+
+-   [Funciones de crecimiento poblacional (\*.R)](script/Cap2/00_funciones_crecimiento.R)
