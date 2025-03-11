@@ -120,6 +120,26 @@
     ]
   },
   {
+    "objectID": "3_dec_simple.html",
+    "href": "3_dec_simple.html",
+    "title": "3  Procesos de decremento simple",
+    "section": "",
+    "text": "3.1 Presentaciones",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>*Procesos de decremento simple*</span>"
+    ]
+  },
+  {
+    "objectID": "3_dec_simple.html#presentaciones",
+    "href": "3_dec_simple.html#presentaciones",
+    "title": "3  Procesos de decremento simple",
+    "section": "",
+    "text": "3.1.1 Decremento simple 👩‍🏫\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>*Procesos de decremento simple*</span>"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "Referencias",
@@ -127,6 +147,16 @@
     "text": "Riffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu,\nand P Gerland. 2019. “DemoTools: An\nR Package of Tools for Aggregate Demographic\nAnalysis.”",
     "crumbs": [
       "Referencias"
+    ]
+  },
+  {
+    "objectID": "3_dec_simple.html#laboratorios",
+    "href": "3_dec_simple.html#laboratorios",
+    "title": "3  Procesos de decremento simple",
+    "section": "3.2 Laboratorios 👩‍🔬",
+    "text": "3.2 Laboratorios 👩‍🔬\n\n3.2.1 Tabla de mortalidad 📉\n\nEjercicio en clase de Tabla de mortalidad (*.xlsx)\nNotas sobre Tablas de Mortalidad (*.pdf)\n\n\n\n3.2.2 Script 👩‍💻\n\nFunción de Tabla de mortalidad (*.R)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>*Procesos de decremento simple*</span>"
     ]
   }
 ]

@@ -25,7 +25,8 @@ graphics.off( )
 
 ## b. Instalación de paquetes  
 # Listado de paquetes 
-.packages <-  c( "data.table", "lubridate", "latex2exp", "dplyr")
+.packages <-  c( "data.table", "lubridate", "latex2exp", 
+                 "dplyr", "ggplot2")
 # Instalacion de paquetes no instalados
 .inst <- .packages %in% installed.packages()
 if( length( .packages[ !.inst ] ) > 0 ){
