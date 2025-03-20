@@ -10,14 +10,30 @@
     No hay problema... Puedes hacer <a href="slides/3_DecrementoSimple_UNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
+### Evaluación 4 ️🧑‍🎓
+
+#### Cuestionario 💬
+
+📆 Conteste las preguntas hasta las 8:00 del martes 25 de marzo de 2025. Si tienen alguna duda nos la pueden hacer llegar por correo electrónico o en las clases. No se admitirán envíos extemporáneos.
+
+[Link del cuestionario](https://forms.gle/1eEaCXyuDFGAqabS6)
+
 ## Laboratorios 👩‍🔬
 
 ### Tabla de mortalidad 📉
 
 -   [Ejercicio en clase de Tabla de mortalidad (\*.xlsx)](excel/Cap3/Tabla%20Mortalidad_Ejemplo.xlsx)
 
+-   [Ejercicio en clase de descomposición de Arriaga (\*.xlsx)](excel/Cap3/Tabla%20Mortalidad%20con%20Arriaga_Ejemplo.xlsx)
+
 -   [Notas sobre Tablas de Mortalidad (\*.pdf)](notes/Cap3/2_Tablas%20de%20mortalidad.pdf)
+
+-   [Notas sobre los factores asociados al descenso de la mortalidad (\*.pdf)](notes/Cap3/3_Factores%20asociados%20al%20descenso%20de%20la%20mortalidad.pdf)
 
 ### Script 👩‍💻
 
 -   [Función de Tabla de mortalidad (\*.R)]()
+
+### Bibliografía adicional 📚
+
+[The stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus](https://jech.bmj.com/content/69/1/28.full)
