@@ -14,7 +14,7 @@
 
 #### Cuestionario 💬
 
-📆 Conteste las preguntas hasta las 8:00 del martes 25 de marzo de 2025. Si tienen alguna duda nos la pueden hacer llegar por correo electrónico o en las clases. No se admitirán envíos extemporáneos.
+📆 Conteste las preguntas hasta las 8:00 del jueves 27 de marzo de 2025. Si tienen alguna duda nos la pueden hacer llegar por correo electrónico o en las clases. No se admitirán envíos extemporáneos.
 
 [Link del cuestionario](https://forms.gle/1eEaCXyuDFGAqabS6)
 
@@ -30,9 +30,17 @@
 
 -   [Notas sobre los factores asociados al descenso de la mortalidad (\*.pdf)](notes/Cap3/3_Factores%20asociados%20al%20descenso%20de%20la%20mortalidad.pdf)
 
+### Datos 🗂️
+
+-   [Población de México de los Censos 2010 y 2020 (\*.csv)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/excel/Cap3/pop_mex_1020.csv)
+
 ### Script 👩‍💻
 
 -   [Función de Tabla de mortalidad (\*.R)]()
+
+
+
+
 
 ### Bibliografía adicional 📚
 
