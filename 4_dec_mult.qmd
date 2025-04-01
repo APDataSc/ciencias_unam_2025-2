@@ -10,13 +10,13 @@
     No hay problema... Puedes hacer <a href="slides/4_DecrementoMúltiple_UNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
-
 ## Laboratorios 👩‍🔬
 
 ### Ejercicios en clase 📉
 
-
 ### Datos 🗂️
+
 -   [Ejemplo de tabla de mortalidad de decrementos múltiples (\*.csv)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/excel/Cap4/mdlt_ex1.csv)
 
 ### Script 👩‍💻
+-   [Función de tabla de mortalidad quinquenal (\*.R)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/script/Cap4/lt_function.R)
