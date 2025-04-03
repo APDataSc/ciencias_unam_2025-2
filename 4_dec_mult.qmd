@@ -18,5 +18,11 @@
 
 -   [Ejemplo de tabla de mortalidad de decrementos múltiples (\*.csv)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/excel/Cap4/mdlt_ex1.csv)
 
+-   [Defunciones generales México 2019 (\*.csv)](https://github.com/APDataSc/ciencias_unam_2025-2/raw/refs/heads/main/excel/Cap4/deaths_mx_2019.csv)
+
+-   [Defunciones por homicidio México 2019 (\*.csv)](https://github.com/APDataSc/ciencias_unam_2025-2/raw/refs/heads/main/excel/Cap4/homic_mx_2019.csv)
+
+
 ### Script 👩‍💻
+
 -   [Función de tabla de mortalidad quinquenal (\*.R)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/script/Cap4/lt_function.R)
