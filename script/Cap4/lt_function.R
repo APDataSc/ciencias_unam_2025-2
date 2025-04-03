@@ -17,7 +17,6 @@
 #**************************************************************************************#
 #**************************************************************************************#
 
-
 # rm(list = ls())
 # graphics.off()
 
@@ -29,6 +28,9 @@
 # data[ , mx := nDx/nNx ]
 # mx <- data[ , mx ]
 
+
+
+# 1. Tabla de vida abreviada ----
 
 lt_mx_abr <- function(x, mx, sex="f", IMR = NA){
   
@@ -119,3 +121,108 @@ lt_mx_abr <- function(x, mx, sex="f", IMR = NA){
 
 # lt_mx_abr(x, mx, IMR = 0.0440)
 # lt_mx_abr(x, mx)
+
+
+# 2. Crecimiento lineal ----
+
+lin <- function(N_0, N_T, t_0, t_T, t){
+  
+  dt <- decimal_date(as.Date(t_T)) - decimal_date(as.Date(t_0))
+  r <- (N_T/N_0-1)/dt
+  
+  h <- t - decimal_date(as.Date(t_0))
+  N_h <- N_0 * (1+r*h)  
+  
+  return(N_h)
+  
+}
+
+
+# 3. Crecimiento geométrico ----
+
+geo <- function(N_0, N_T, t_0, t_T, t){
+  
+  dt <- decimal_date(as.Date(t_T)) - decimal_date(as.Date(t_0))
+  r <- ((N_T/N_0)^(1/dt))-1
+  
+  h <- t - decimal_date(as.Date(t_0))
+  N_h <- N_0 * (1+r)^h  
+  
+  return(N_h)
+  
+}
+
+
+# 4. Crecimiento exponencial ----
+
+expo <- function(N_0, N_T, t_0, t_T, t){
+  
+  dt <- decimal_date(as.Date(t_T)) - decimal_date(as.Date(t_0))
+  r <- log(N_T/N_0)/dt
+  
+  h <- t - decimal_date(as.Date(t_0))
+  N_h <- N_0 * exp(r*h)  
+  
+  return(N_h)
+  
+} 
+
+
+# 4. Crecimiento logístico ----
+
+logistic <- function(U = 200000000, L = 40000000, 
+                     anio_ini=1950.5, anio_fin=2100.5,
+                     anio=decimal_date(as.Date(c("2010-06-25", "2020-03-15"))), 
+                     I=c(112336538, 126014024)){
+  U <- U
+  L <- L 
+  anio_ini <- anio_ini
+  anio_fin <- anio_fin
+  anio <- decimal_date(as.Date(anio))
+  anios <- anio_fin
+  I <- I 
+  
+  Z <- log((U-I)/(I-L))
+  a <- lm(Z~anio)$coefficients[1]
+  w <- lm(Z~anio)$coefficients[2]
+  
+  Z_t <- a+w*anios
+  I_t <- (U+L*exp(Z_t))/(1+exp(Z_t))
+  
+  logistic <- setDT(as.data.frame(cbind(anios, I_t)))
+  logistic[anios>anio[length(anio)], .(I_t)] %>% pull() 
+  
+}
+
+
+
+# 5. Crecimiento consolidado ----
+
+crecim <- function(N_0, N_T, t_0, t_T, t, type = "lin"){
+  
+  # si se quiere el modelo exponencial
+  if(type == "exp"){
+    Nh <- expo(N_0, N_T, t_0, t_T, t) # una función dentro de otra!!!
+  }
+  
+  # si se quiere el modelo lineal
+  if(type == "lin"){
+    Nh <- lin(N_0, N_T, t_0, t_T, t) # una función dentro de otra!!!
+  }
+  
+  # si se quiere el modelo geométrico
+  if(type == "geo"){
+    Nh <- geo(N_0, N_T, t_0, t_T, t) # una función dentro de otra!!!
+  }
+  
+  # si se quiere el modelo geométrico
+  if(type == "log"){
+    Nh <- logistic(U = 200000000, L = 40000000,
+                   anio_ini = 1950, anio_fin = t,
+                   anio = c(t_0, t_T),
+                   I = c(N_0, N_T)
+    ) # una función dentro de otra!!!
+  }
+  
+  return(Nh)
+}
