@@ -10,15 +10,32 @@
 #         Creado por:               Andrés Peña M.  
 #         Fecha de creación:        04-03-2025
 #         Actualizado por:          Andrés Peña M.
-#         Fecha de actualización:   04-03-2025
+#         Fecha de actualización:   02-04-2025
 #         Institución:              Facultad de Ciencias - UNAM
 #         Contacto:                 agpena@colmex.mx
 #
 #**************************************************************************************#
 #**************************************************************************************#
 
+## a. Limpieza 
 # rm(list = ls())
 # graphics.off()
+
+
+## b. Instalación de paquetes  
+# Listado de paquetes 
+.packages <-  c( "data.table", "lubridate", "latex2exp", 
+                 "dplyr", "ggplot2")
+# Instalacion de paquetes no instalados
+.inst <- .packages %in% installed.packages()
+if( length( .packages[ !.inst ] ) > 0 ){
+  install.packages( .packages[ !.inst ], dependencies = TRUE )
+}
+
+
+## c. Carga de paquetes 
+lapply( .packages, require, character.only = TRUE )
+
 
 # library(data.table)
 
