@@ -84,7 +84,17 @@
     "href": "1_conceptos.html#laboratorios",
     "title": "1  Conceptos básicos y medidas",
     "section": "1.2 Laboratorios 👩‍🔬",
-    "text": "1.2 Laboratorios 👩‍🔬\n\n1.2.1 Introducción a R\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.\n\nAsegúrese de tener instalados los siguientes paquetes de R antes de empezar:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"readxl\")\ninstall.packages(\"mipfp\")\ninstall.packages(\"LexisPlotR\")\ninstall.packages(\"MortalityLaws\")\ninstall.packages(\"remotes\")\ninstall.packages(\"quadprog\")\ninstall.packages(\"kableExtra\")\ninstall.packages(\"MortCast\")\ninstall.packages(\"zoo\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"webshot\")\ninstall.packages(\"remotes\")\nwebshot::install_phantomjs(force=TRUE)\n\n#Instalar Demotools \ninstall.packages(\"rstan\", repos = c(\"https://mc-stan.org/r-packages/\", \n                                    getOption(\"repos\")))\nremotes::install_github(\"timriffe/DemoTools\")\n\nDemoTools es un paquete de R que tiene funciones útiles en el análisis demográfico (Riffe et al. 2019).\n\n\n1.2.2 Datos 🗂️\n\nPoblación a inicio de año, 1950-2070 (*.csv)\n\n\n\n1.2.3 Script 👩‍💻\n\nScript de la Semana 1 (*.R): para descargar este archivo de clic derecho y Guardar vínculo como… (Save link as…, Descargar archivo enlazado como…).\nScript de la Semana 2 y 3 (*.rar)\n\n\n\n\n\nRiffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu, y P Gerland. 2019. «DemoTools: An R package of tools for aggregate demographic analysis».",
+    "text": "1.2 Laboratorios 👩‍🔬\n\n1.2.1 Introducción a R\n\n    Parece que no tienes el plugin para PDF's en este navegador.\n    No hay problema... Puedes hacer clic aquí para descargar la presentación.\n\nAsegúrese de tener instalados los siguientes paquetes de R antes de empezar:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"readxl\")\ninstall.packages(\"mipfp\")\ninstall.packages(\"LexisPlotR\")\ninstall.packages(\"MortalityLaws\")\ninstall.packages(\"remotes\")\ninstall.packages(\"quadprog\")\ninstall.packages(\"kableExtra\")\ninstall.packages(\"MortCast\")\ninstall.packages(\"zoo\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"webshot\")\ninstall.packages(\"remotes\")\nwebshot::install_phantomjs(force=TRUE)\n\n#Instalar Demotools \ninstall.packages(\"rstan\", repos = c(\"https://mc-stan.org/r-packages/\", \n                                    getOption(\"repos\")))\nremotes::install_github(\"timriffe/DemoTools\")\n\nDemoTools es un paquete de R que tiene funciones útiles en el análisis demográfico (Riffe et al. 2019).\n\n\n1.2.2 Datos 🗂️\n\nPoblación a inicio de año, 1950-2070 (*.csv)\n\n\n\n1.2.3 Script 👩‍💻\n\nScript de la Semana 1 (*.R): para descargar este archivo de clic derecho y Guardar vínculo como… (Save link as…, Descargar archivo enlazado como…).\nScript de la Semana 2 y 3 (*.rar)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
+    ]
+  },
+  {
+    "objectID": "1_conceptos.html#recursos-adicionales",
+    "href": "1_conceptos.html#recursos-adicionales",
+    "title": "1  Conceptos básicos y medidas",
+    "section": "1.3 Recursos adicionales 📚",
+    "text": "1.3 Recursos adicionales 📚\nEl futuro demográfico de México (COLMEX, 2024)\n\n\n\n\nRiffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu, y P Gerland. 2019. «DemoTools: An R package of tools for aggregate demographic analysis».",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
     ]
@@ -144,7 +154,17 @@
     "href": "3_dec_simple.html#laboratorios",
     "title": "3  Procesos de decremento simple",
     "section": "3.2 Laboratorios 👩‍🔬",
-    "text": "3.2 Laboratorios 👩‍🔬\n\n3.2.1 Tabla de mortalidad 📉\n\nEjercicio en clase de Tabla de mortalidad (*.xlsx)\nEjercicio en clase de descomposición de Arriaga (*.xlsx)\nNotas sobre Tablas de Mortalidad (*.pdf)\nNotas sobre los factores asociados al descenso de la mortalidad (*.pdf)\n\n\n\n3.2.2 Datos 🗂️\n\nPoblación de México de los Censos 2010 y 2020 (*.csv)\n\n\n\n3.2.3 Script 👩‍💻\n\nFunción de tabla de mortalidad quinquenal (*.R)\n\n\n\n3.2.4 Bibliografía adicional 📚\nThe stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus",
+    "text": "3.2 Laboratorios 👩‍🔬\n\n3.2.1 Tabla de mortalidad 📉\n\nEjercicio en clase de Tabla de mortalidad (*.xlsx)\nEjercicio en clase de descomposición de Arriaga (*.xlsx)\nNotas sobre Tablas de Mortalidad (*.pdf)\nNotas sobre los factores asociados al descenso de la mortalidad (*.pdf)\n\n\n\n3.2.2 Datos 🗂️\n\nPoblación de México de los Censos 2010 y 2020 (*.csv)\n\n\n\n3.2.3 Script 👩‍💻\n\nFunción de tabla de mortalidad quinquenal (*.R)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>*Procesos de decremento simple*</span>"
+    ]
+  },
+  {
+    "objectID": "3_dec_simple.html#recursos-adicionales",
+    "href": "3_dec_simple.html#recursos-adicionales",
+    "title": "3  Procesos de decremento simple",
+    "section": "3.3 Recursos adicionales 📚",
+    "text": "3.3 Recursos adicionales 📚\nCoding decomposition methods - Tim Riffe (2021)",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>*Procesos de decremento simple*</span>"
     ]
@@ -170,11 +190,31 @@
     ]
   },
   {
+    "objectID": "4_dec_mult.html#tablas-de-vida-conjunta",
+    "href": "4_dec_mult.html#tablas-de-vida-conjunta",
+    "title": "4  Procesos de decremento múltiple",
+    "section": "4.2 Tablas de vida conjunta 💑",
+    "text": "4.2 Tablas de vida conjunta 💑\nAlgunos métodos de estimación de la mortalidad infantil y adulta requieren tablas de vida conjunta (es decir, tablas de vida combinadas para hombres y mujeres). Dado que estas tablas de vida (o su implementación) no son particularmente sensibles a la razón de sexos al nacer, se utiliza la razón de sexos al nacer de 105 (niños por cada 100 niñas). Entonces las tablas de vida conjunta se obtienen de la siguiente manera:\n\\[l^c(x) = \\frac{(1.05) l^m(x) + l^f(x)}{2.05}\\]\ndonde \\(l^c(x)\\) es el número de sobrevivientes a la edad \\(x\\) en la tabla de vida conjunta, mientras \\(l^m(x)\\) y \\(l^f(x)\\) son los valores equivalentes en las tablas de vida para hombres y mujeres, respectivamente.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>*Procesos de decremento múltiple*</span>"
+    ]
+  },
+  {
     "objectID": "4_dec_mult.html#laboratorios",
     "href": "4_dec_mult.html#laboratorios",
     "title": "4  Procesos de decremento múltiple",
-    "section": "4.2 Laboratorios 👩‍🔬",
-    "text": "4.2 Laboratorios 👩‍🔬\n\n4.2.1 Ejercicios en clase 📉\n\n\n4.2.2 Datos 🗂️\n\nEjemplo de tabla de mortalidad de decrementos múltiples (*.csv)\nDefunciones generales México 2019 (*.csv)\nDefunciones por homicidio México 2019 (*.csv)\n\n\n\n4.2.3 Script 👩‍💻\n\nFunción de tabla de mortalidad quinquenal (*.R)",
+    "section": "4.3 Laboratorios 👩‍🔬",
+    "text": "4.3 Laboratorios 👩‍🔬\n\n4.3.1 Ejercicios en clase 📉\n\n\n4.3.2 Datos 🗂️\n\nEjemplo de tabla de mortalidad de decrementos múltiples (*.csv)\nDefunciones generales México 2019 (*.csv)\nDefunciones por homicidio México 2019 (*.csv)\n\n\n\n4.3.3 Script 👩‍💻\n\nFunción de tabla de mortalidad quinquenal (*.R)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>*Procesos de decremento múltiple*</span>"
+    ]
+  },
+  {
+    "objectID": "4_dec_mult.html#bibliografía-adicional",
+    "href": "4_dec_mult.html#bibliografía-adicional",
+    "title": "4  Procesos de decremento múltiple",
+    "section": "4.4 Bibliografía adicional 📚",
+    "text": "4.4 Bibliografía adicional 📚\nThe stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus (Canudas-Romo, García-Guerrero & Echarri-Cánovas, 2015)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>*Procesos de decremento múltiple*</span>"
     ]

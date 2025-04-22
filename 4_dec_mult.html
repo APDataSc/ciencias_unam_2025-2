@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -200,12 +229,14 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#decremento-múltiple" id="toc-decremento-múltiple" class="nav-link" data-scroll-target="#decremento-múltiple"><span class="header-section-number">4.1.1</span> Decremento múltiple 👩‍🏫</a></li>
   </ul></li>
-  <li><a href="#laboratorios" id="toc-laboratorios" class="nav-link" data-scroll-target="#laboratorios"><span class="header-section-number">4.2</span> Laboratorios 👩‍🔬</a>
+  <li><a href="#tablas-de-vida-conjunta" id="toc-tablas-de-vida-conjunta" class="nav-link" data-scroll-target="#tablas-de-vida-conjunta"><span class="header-section-number">4.2</span> Tablas de vida conjunta 💑</a></li>
+  <li><a href="#laboratorios" id="toc-laboratorios" class="nav-link" data-scroll-target="#laboratorios"><span class="header-section-number">4.3</span> Laboratorios 👩‍🔬</a>
   <ul class="collapse">
-  <li><a href="#ejercicios-en-clase" id="toc-ejercicios-en-clase" class="nav-link" data-scroll-target="#ejercicios-en-clase"><span class="header-section-number">4.2.1</span> Ejercicios en clase 📉</a></li>
-  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos"><span class="header-section-number">4.2.2</span> Datos 🗂️</a></li>
-  <li><a href="#script" id="toc-script" class="nav-link" data-scroll-target="#script"><span class="header-section-number">4.2.3</span> Script 👩‍💻</a></li>
+  <li><a href="#ejercicios-en-clase" id="toc-ejercicios-en-clase" class="nav-link" data-scroll-target="#ejercicios-en-clase"><span class="header-section-number">4.3.1</span> Ejercicios en clase 📉</a></li>
+  <li><a href="#datos" id="toc-datos" class="nav-link" data-scroll-target="#datos"><span class="header-section-number">4.3.2</span> Datos 🗂️</a></li>
+  <li><a href="#script" id="toc-script" class="nav-link" data-scroll-target="#script"><span class="header-section-number">4.3.3</span> Script 👩‍💻</a></li>
   </ul></li>
+  <li><a href="#bibliografía-adicional" id="toc-bibliografía-adicional" class="nav-link" data-scroll-target="#bibliografía-adicional"><span class="header-section-number">4.4</span> Bibliografía adicional 📚</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/apdatasc/ciencias_unam_2025-2/edit/main/4_dec_mult.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/apdatasc/ciencias_unam_2025-2/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
@@ -241,27 +272,37 @@ ul.task-list li input[type="checkbox"] {
 </object>
 </section>
 </section>
-<section id="laboratorios" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="laboratorios"><span class="header-section-number">4.2</span> Laboratorios 👩‍🔬</h2>
-<section id="ejercicios-en-clase" class="level3" data-number="4.2.1">
-<h3 data-number="4.2.1" class="anchored" data-anchor-id="ejercicios-en-clase"><span class="header-section-number">4.2.1</span> Ejercicios en clase 📉</h3>
+<section id="tablas-de-vida-conjunta" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="tablas-de-vida-conjunta"><span class="header-section-number">4.2</span> Tablas de vida conjunta 💑</h2>
+<p>Algunos métodos de estimación de la mortalidad infantil y adulta requieren tablas de vida conjunta (es decir, tablas de vida combinadas para hombres y mujeres). Dado que estas tablas de vida (o su implementación) no son particularmente sensibles a la razón de sexos al nacer, se utiliza la razón de sexos al nacer de 105 (niños por cada 100 niñas). Entonces las tablas de vida conjunta se obtienen de la siguiente manera:</p>
+<p><span class="math display">\[l^c(x) = \frac{(1.05) l^m(x) + l^f(x)}{2.05}\]</span></p>
+<p>donde <span class="math inline">\(l^c(x)\)</span> es el número de sobrevivientes a la edad <span class="math inline">\(x\)</span> en la tabla de vida conjunta, mientras <span class="math inline">\(l^m(x)\)</span> y <span class="math inline">\(l^f(x)\)</span> son los valores equivalentes en las tablas de vida para hombres y mujeres, respectivamente.</p>
 </section>
-<section id="datos" class="level3" data-number="4.2.2">
-<h3 data-number="4.2.2" class="anchored" data-anchor-id="datos"><span class="header-section-number">4.2.2</span> Datos 🗂️</h3>
+<section id="laboratorios" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="laboratorios"><span class="header-section-number">4.3</span> Laboratorios 👩‍🔬</h2>
+<section id="ejercicios-en-clase" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="ejercicios-en-clase"><span class="header-section-number">4.3.1</span> Ejercicios en clase 📉</h3>
+</section>
+<section id="datos" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="datos"><span class="header-section-number">4.3.2</span> Datos 🗂️</h3>
 <ul>
 <li><p><a href="https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/excel/Cap4/mdlt_ex1.csv">Ejemplo de tabla de mortalidad de decrementos múltiples (*.csv)</a></p></li>
 <li><p><a href="https://github.com/APDataSc/ciencias_unam_2025-2/raw/refs/heads/main/excel/Cap4/deaths_mx_2019.csv">Defunciones generales México 2019 (*.csv)</a></p></li>
 <li><p><a href="https://github.com/APDataSc/ciencias_unam_2025-2/raw/refs/heads/main/excel/Cap4/homic_mx_2019.csv">Defunciones por homicidio México 2019 (*.csv)</a></p></li>
 </ul>
 </section>
-<section id="script" class="level3" data-number="4.2.3">
-<h3 data-number="4.2.3" class="anchored" data-anchor-id="script"><span class="header-section-number">4.2.3</span> Script 👩‍💻</h3>
+<section id="script" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="script"><span class="header-section-number">4.3.3</span> Script 👩‍💻</h3>
 <ul>
 <li><a href="https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/script/Cap4/lt_function.R">Función de tabla de mortalidad quinquenal (*.R)</a></li>
 </ul>
-
-
 </section>
+</section>
+<section id="bibliografía-adicional" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="bibliografía-adicional"><span class="header-section-number">4.4</span> Bibliografía adicional 📚</h2>
+<p><a href="https://jech.bmj.com/content/69/1/28.full">The stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus (Canudas-Romo, García-Guerrero &amp; Echarri-Cánovas, 2015)</a></p>
+
+
 </section>
 
 </main> <!-- /main -->
