@@ -10,6 +10,17 @@
     No hay problema... Puedes hacer <a href="slides/4_DecrementoMúltiple_UNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
+
+## Tablas de vida conjunta 💑
+
+Algunos métodos de estimación de la mortalidad infantil y adulta requieren tablas de vida conjunta (es decir, tablas de vida combinadas para hombres y mujeres). Dado que estas tablas de vida (o su implementación) no son particularmente sensibles a la razón de sexos al nacer, se utiliza la razón de sexos al nacer de 105 (niños por cada 100 niñas). Entonces las tablas de vida conjunta se obtienen de la siguiente manera:
+
+$$l^c(x) = \frac{(1.05) l^m(x) + l^f(x)}{2.05}$$
+
+donde $l^c(x)$ es el número de sobrevivientes a la edad $x$ en la tabla de vida conjunta, mientras $l^m(x)$ y $l^f(x)$ son los valores equivalentes en las tablas de vida para hombres y mujeres, respectivamente.
+
+
+
 ## Laboratorios 👩‍🔬
 
 ### Ejercicios en clase 📉
@@ -22,7 +33,12 @@
 
 -   [Defunciones por homicidio México 2019 (\*.csv)](https://github.com/APDataSc/ciencias_unam_2025-2/raw/refs/heads/main/excel/Cap4/homic_mx_2019.csv)
 
-
 ### Script 👩‍💻
 
 -   [Función de tabla de mortalidad quinquenal (\*.R)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/script/Cap4/lt_function.R)
+
+
+## Bibliografía adicional 📚
+
+[The stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus (Canudas-Romo, García-Guerrero & Echarri-Cánovas, 2015)](https://jech.bmj.com/content/69/1/28.full)
+

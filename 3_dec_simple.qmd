@@ -38,6 +38,6 @@
 
 -   [Función de tabla de mortalidad quinquenal (\*.R)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/script/Cap4/lt_function.R)
 
-### Bibliografía adicional 📚
+## Recursos adicionales 📚
 
-[The stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus](https://jech.bmj.com/content/69/1/28.full)
+[Coding decomposition methods - Tim Riffe (2021)](https://www.youtube.com/watch?v=J_6C82TN_WU)

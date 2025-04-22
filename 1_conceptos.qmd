@@ -95,7 +95,6 @@ ggplot(data=tab_rd, aes(x=año, y=RDT)) +
   facet_wrap(~entidad)
 ```
 
-
 ## Laboratorios 👩‍🔬
 
 ### Introducción a R
@@ -141,3 +140,8 @@ remotes::install_github("timriffe/DemoTools")
 -   [Script de la Semana 1 (\*.R)](script/Cap1/Semana1_Demogr_CienciasUNAM.R): para descargar este archivo de `clic derecho` y `Guardar vínculo como…` (`Save link as…`, `Descargar archivo enlazado como…`).
 
 -   [Script de la Semana 2 y 3 (\*.rar)](script/Cap1/censo_2020.rar)
+
+
+## Recursos adicionales 📚
+
+[El futuro demográfico de México (COLMEX, 2024)](https://www.youtube.com/watch?v=wQCGNj2ho6A)
