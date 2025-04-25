@@ -94,7 +94,7 @@
     "href": "1_conceptos.html#recursos-adicionales",
     "title": "1  Conceptos básicos y medidas",
     "section": "1.3 Recursos adicionales 📚",
-    "text": "1.3 Recursos adicionales 📚\nEl futuro demográfico de México (COLMEX, 2024)\n\n\n\n\nRiffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu, y P Gerland. 2019. «DemoTools: An R package of tools for aggregate demographic analysis».",
+    "text": "1.3 Recursos adicionales 📚\n📽️ El futuro demográfico de México (COLMEX, 2024)\n\n\n\n\nRiffe, T, JM Aburto, M Alexander, S Fennell, I Kashnitsky, M Pascariu, y P Gerland. 2019. «DemoTools: An R package of tools for aggregate demographic analysis».",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>*Conceptos básicos y medidas*</span>"
     ]
@@ -164,7 +164,7 @@
     "href": "3_dec_simple.html#recursos-adicionales",
     "title": "3  Procesos de decremento simple",
     "section": "3.3 Recursos adicionales 📚",
-    "text": "3.3 Recursos adicionales 📚\nCoding decomposition methods - Tim Riffe (2021)",
+    "text": "3.3 Recursos adicionales 📚\n📽️ Coding decomposition methods (Riffe, 2021)",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>*Procesos de decremento simple*</span>"
     ]
@@ -210,11 +210,11 @@
     ]
   },
   {
-    "objectID": "4_dec_mult.html#bibliografía-adicional",
-    "href": "4_dec_mult.html#bibliografía-adicional",
+    "objectID": "4_dec_mult.html#recursos-adicionales",
+    "href": "4_dec_mult.html#recursos-adicionales",
     "title": "4  Procesos de decremento múltiple",
-    "section": "4.4 Bibliografía adicional 📚",
-    "text": "4.4 Bibliografía adicional 📚\nThe stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus (Canudas-Romo, García-Guerrero & Echarri-Cánovas, 2015)",
+    "section": "4.4 Recursos adicionales 📚",
+    "text": "4.4 Recursos adicionales 📚\n📜 The stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus (Canudas-Romo, García-Guerrero & Echarri-Cánovas, 2015)\n📽️ Resiliencia desigual a los efectos indirectos de la pandemia de Covid-19 sobre la esperanza de vida (Aburto, 2022)\n📜 The impact of violence and COVID-19 on Mexico’s life-expectancy losses and recent bounce-back, 2015–22 (Zazueta-Borboa, Vázquez-Castillo, Gargiulo & Aburto, 2025)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>*Procesos de decremento múltiple*</span>"
     ]
