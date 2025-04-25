@@ -141,7 +141,6 @@ remotes::install_github("timriffe/DemoTools")
 
 -   [Script de la Semana 2 y 3 (\*.rar)](script/Cap1/censo_2020.rar)
 
-
 ## Recursos adicionales 📚
 
-[El futuro demográfico de México (COLMEX, 2024)](https://www.youtube.com/watch?v=wQCGNj2ho6A)
+📽️ [El futuro demográfico de México (COLMEX, 2024)](https://www.youtube.com/watch?v=wQCGNj2ho6A)

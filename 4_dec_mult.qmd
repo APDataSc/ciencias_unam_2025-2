@@ -10,7 +10,6 @@
     No hay problema... Puedes hacer <a href="slides/4_DecrementoMúltiple_UNAM_2025_2.pdf">clic aquí para descargar la presentación.</a></p>
 </object>
 ```
-
 ## Tablas de vida conjunta 💑
 
 Algunos métodos de estimación de la mortalidad infantil y adulta requieren tablas de vida conjunta (es decir, tablas de vida combinadas para hombres y mujeres). Dado que estas tablas de vida (o su implementación) no son particularmente sensibles a la razón de sexos al nacer, se utiliza la razón de sexos al nacer de 105 (niños por cada 100 niñas). Entonces las tablas de vida conjunta se obtienen de la siguiente manera:
@@ -18,8 +17,6 @@ Algunos métodos de estimación de la mortalidad infantil y adulta requieren tab
 $$l^c(x) = \frac{(1.05) l^m(x) + l^f(x)}{2.05}$$
 
 donde $l^c(x)$ es el número de sobrevivientes a la edad $x$ en la tabla de vida conjunta, mientras $l^m(x)$ y $l^f(x)$ son los valores equivalentes en las tablas de vida para hombres y mujeres, respectivamente.
-
-
 
 ## Laboratorios 👩‍🔬
 
@@ -37,8 +34,10 @@ donde $l^c(x)$ es el número de sobrevivientes a la edad $x$ en la tabla de vida
 
 -   [Función de tabla de mortalidad quinquenal (\*.R)](https://raw.githubusercontent.com/APDataSc/ciencias_unam_2025-2/refs/heads/main/script/Cap4/lt_function.R)
 
+## Recursos adicionales 📚
 
-## Bibliografía adicional 📚
+📜 [The stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus (Canudas-Romo, García-Guerrero & Echarri-Cánovas, 2015)](https://jech.bmj.com/content/69/1/28.full)
 
-[The stagnation of the Mexican male life expectancy in the first decade of the 21st century: the impact of homicides and diabetes mellitus (Canudas-Romo, García-Guerrero & Echarri-Cánovas, 2015)](https://jech.bmj.com/content/69/1/28.full)
+📽️ [Resiliencia desigual a los efectos indirectos de la pandemia de Covid-19 sobre la esperanza de vida (Aburto, 2022)](https://www.youtube.com/live/44eQs_mP7TQ)
 
+📜 [The impact of violence and COVID-19 on Mexico's life-expectancy losses and recent bounce-back, 2015--22 (Zazueta-Borboa, Vázquez-Castillo, Gargiulo & Aburto, 2025)](https://doi.org/10.1093/ije/dyaf034)

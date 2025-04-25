@@ -40,4 +40,4 @@
 
 ## Recursos adicionales 📚
 
-[Coding decomposition methods - Tim Riffe (2021)](https://www.youtube.com/watch?v=J_6C82TN_WU)
+📽️ [Coding decomposition methods (Riffe, 2021)](https://www.youtube.com/watch?v=J_6C82TN_WU)
